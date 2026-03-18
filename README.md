@@ -6,7 +6,7 @@ This project focuses on **semantic segmentation of road scene images** using the
 
 The goal of this project is to train a deep learning model capable of accurately segmenting urban driving scenes, which is a critical component in **autonomous driving systems and intelligent transportation applications**.
 
-The project was implemented and trained using **Kaggle notebooks**.
+The project was implemented and trained using **GOOGLE Colab**.
 
 ---
 
@@ -63,7 +63,7 @@ The project follows the standard deep learning pipeline for semantic segmentatio
 5. **Training**
 
    * Loss Function: Categorical Cross-Entropy
-   * Optimizer: Adam
+   * Optimizer: SGD 
    * Evaluation metrics used during training
 
 6. **Evaluation**
@@ -105,6 +105,8 @@ Possible architectures used in similar implementations include:
 * OpenCV
 * Matplotlib
 * Kaggle Notebook Environment
+* Google Colab
+* torch.info
 
 ---
 
